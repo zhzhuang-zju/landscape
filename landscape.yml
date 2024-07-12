@@ -3553,6 +3553,23 @@ landscape:
               slack_url: https://cloud-native.slack.com/messages/karmada
               chat_channel: '#general'
               clomonitor_name: karmada
+              summary_personas: Cloud Architects, Platform Engineers, DevOps Engineer, DevOps practitioners, DevSecOps practitioners
+              summary_tags: multi-cloud, hybrid cloud
+              summary_use_case: >-
+                Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple
+                Kubernetes clusters and clouds, with no changes to your applications. By speaking Kubernetes-native APIs and providing advanced scheduling 
+                capabilities, Karmada enables truly open, multi-cloud Kubernetes.
+                Karmada aims to provide turnkey automation for multi-cluster application management in multi-cloud and hybrid cloud scenarios, with key 
+                features such as centralized multi-cloud management, high availability, failure recovery, and traffic scheduling.
+              summary_business_use_case: >-
+                In a modern enterprise environment, IT infrastructures often span multiple data centers and cloud platforms. Managing workloads and services 
+                across these diverse environments poses significant challenges, including increased operational complexity, lack of visibility and control, 
+                potential vendor lock-in, and difficulties in achieving high availability and disaster recovery objectives.
+                Karmada is a multi-cluster orchestration system that addresses these challenges by providing a unified control plane for managing workloads 
+                across multiple Kubernetes clusters. It enables organizations to operate a federated cluster setup, where workloads can be seamlessly deployed, 
+                scaled, and managed across on-premises data centers and multiple cloud providers.
+              summary_release_rate: Per month
+              summary_integrations: Grafana, Prometheus, Argo, etc.
           - item:
             name: kcp
             homepage_url: https://kcp.io
