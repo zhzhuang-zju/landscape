@@ -3562,14 +3562,11 @@ landscape:
                 Karmada aims to provide turnkey automation for multi-cluster application management in multi-cloud and hybrid cloud scenarios, with key 
                 features such as centralized multi-cloud management, high availability, failure recovery, and traffic scheduling.
               summary_business_use_case: >-
-                In a modern enterprise environment, IT infrastructures often span multiple data centers and cloud platforms. Managing workloads and services 
-                across these diverse environments poses significant challenges, including increased operational complexity, lack of visibility and control, 
-                potential vendor lock-in, and difficulties in achieving high availability and disaster recovery objectives.
-                Karmada is a multi-cluster orchestration system that addresses these challenges by providing a unified control plane for managing workloads 
-                across multiple Kubernetes clusters. It enables organizations to operate a federated cluster setup, where workloads can be seamlessly deployed, 
-                scaled, and managed across on-premises data centers and multiple cloud providers.
-              summary_release_rate: Per month
-              summary_integrations: Grafana, Prometheus, Argo, etc.
+                Managing workloads across diverse enterprise environments is complex. Karmada, a multi-cluster orchestration system, provides a unified 
+                control plane for Kubernetes clusters. It enables seamless workload deployment, scaling, and management across on-premises and multi-cloud 
+                setups, addressing operational challenges, reducing vendor lock-in, and enhancing disaster recovery and infrastructure efficiency.
+              summary_release_rate: Every 3 months
+              summary_integrations: Grafana, Prometheus, Argo, Flux, Istio, Filebeat, Submariner, Velero, etc.
           - item:
             name: kcp
             homepage_url: https://kcp.io
